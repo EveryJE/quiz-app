@@ -1,0 +1,353 @@
+[
+  {
+    "number": 1,
+    "question": "What is React?",
+    "options": {
+      "A": "A server-side programming language.",
+      "B": "A JavaScript library for building user interfaces.",
+      "C": "A NoSQL database.",
+      "D": "A design pattern for responsive web design."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 2,
+    "question": "Who developed React?",
+    "options": {
+      "A": "Google",
+      "B": "Facebook",
+      "C": "Microsoft",
+      "D": "Apple"
+    },
+    "answer": "B"
+  },
+  {
+    "number": 3,
+    "question": "What is JSX in React?",
+    "options": {
+      "A": "A JavaScript syntax extension.",
+      "B": "A data storage format.",
+      "C": "A server-side rendering engine.",
+      "D": "A CSS preprocessor."
+    },
+    "answer": "A"
+  },
+  {
+    "number": 4,
+    "question": "What is the virtual DOM in React?",
+    "options": {
+      "A": "A testing framework.",
+      "B": "An alternative to Redux.",
+      "C": "A lightweight version of the Document Object Model.",
+      "D": "A way to improve rendering performance."
+    },
+    "answer": "D"
+  },
+  {
+    "number": 5,
+    "question": "What is the purpose of React Router?",
+    "options": {
+      "A": "To manage state in React applications.",
+      "B": "To handle routing in single-page applications.",
+      "C": "To connect React with a database.",
+      "D": "To create responsive design layouts."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 6,
+    "question": "What is the role of setState() in React?",
+    "options": {
+      "A": "To modify the state directly.",
+      "B": "To update the DOM directly.",
+      "C": "To schedule an update to a component's state.",
+      "D": "To handle user input events."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 7,
+    "question": "What is the purpose of React Hooks?",
+    "options": {
+      "A": "To handle authentication in React.",
+      "B": "To manage state and side effects in functional components.",
+      "C": "To create animations in React applications.",
+      "D": "To connect React with external APIs."
+    },
+    "answer": "B"
+  },
+    {
+    "number": 8,
+    "question": "What is React.memo used for?",
+    "options": {
+      "A": "To memoize function calls in React components.",
+      "B": "To optimize the rendering performance of functional components.",
+      "C": "To handle form submissions in React applications.",
+      "D": "To define the initial state of a component."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 9,
+    "question": "What is the significance of the componentDidMount() lifecycle method?",
+    "options": {
+      "A": "It is used for styling components.",
+      "B": "It is called after rendering and is used for side effects.",
+      "C": "It is responsible for handling user input events.",
+      "D": "It is used to define the initial state of a component."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 10,
+    "question": "What is Redux in the context of React?",
+    "options": {
+      "A": "A testing library for React applications.",
+      "B": "A state management library.",
+      "C": "A JavaScript framework for building web applications.",
+      "D": "A routing library for React applications."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 11,
+    "question": "What is the purpose of the map() function in React?",
+    "options": {
+      "A": "To create a new array with transformed elements.",
+      "B": "To iterate over the elements of an array and modify them.",
+      "C": "To handle user authentication in React applications.",
+      "D": "To define the layout of a component."
+    },
+    "answer": "A"
+  },
+  {
+    "number": 12,
+    "question": "What are React Props?",
+    "options": {
+      "A": "The internal state of a component.",
+      "B": "External inputs that a component can receive.",
+      "C": "A method for handling asynchronous operations.",
+      "D": "A type of CSS styling in React."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 13,
+    "question": "What is the role of the shouldComponentUpdate() method?",
+    "options": {
+      "A": "To fetch data from an external API.",
+      "B": "To determine if a component should re-render.",
+      "C": "To handle form submissions.",
+      "D": "To define the initial state of a component."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 14,
+    "question": "What is React Native?",
+    "options": {
+      "A": "A web development framework.",
+      "B": "A mobile app development framework.",
+      "C": "A state management library for React.",
+      "D": "A testing library for React applications."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 15,
+    "question": "What is the purpose of the componentWillUnmount() method?",
+    "options": {
+      "A": "To handle user authentication.",
+      "B": "To define the initial state of a component.",
+      "C": "To perform cleanup before a component is removed from the DOM.",
+      "D": "To update the DOM directly."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 16,
+    "question": "What is the role of keys in React lists?",
+    "options": {
+      "A": "To define the layout of a component.",
+      "B": "To uniquely identify elements in a list.",
+      "C": "To handle user input events.",
+      "D": "To create animations in React applications."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 17,
+    "question": "What is the purpose of the useContext hook in React?",
+    "options": {
+      "A": "To handle asynchronous operations.",
+      "B": "To manage state in class components.",
+      "C": "To provide access to the React context API in functional components.",
+      "D": "To create animations in React applications."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 18,
+    "question": "What is the significance of React Fragments?",
+    "options": {
+      "A": "To define the initial state of a component.",
+      "B": "To group multiple elements without adding extra nodes to the DOM.",
+      "C": "To handle user authentication in React applications.",
+      "D": "To create a new array with transformed elements."
+    },
+    "answer": "B"
+  }, {
+    "number": 19,
+    "question": "How does React handle routing in a single-page application?",
+    "options": {
+      "A": "By using server-side routing.",
+      "B": "By reloading the entire page for each route.",
+      "C": "By using client-side routing with libraries like React Router.",
+      "D": "By embedding routes in the component's JSX code."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 20,
+    "question": "What is the significance of the useRef hook in React?",
+    "options": {
+      "A": "To manage state in functional components.",
+      "B": "To create animations in React applications.",
+      "C": "To access and interact with the DOM directly.",
+      "D": "To handle form submissions."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 21,
+    "question": "What is the purpose of the componentDidCatch() lifecycle method?",
+    "options": {
+      "A": "To fetch data from an external API.",
+      "B": "To handle errors within a component tree.",
+      "C": "To define the initial state of a component.",
+      "D": "To determine if a component should re-render."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 22,
+    "question": "What is the role of the withRouter HOC (Higher Order Component) in React Router?",
+    "options": {
+      "A": "To connect a component to the Redux store.",
+      "B": "To wrap a component and give it access to the router's props.",
+      "C": "To handle user authentication in React applications.",
+      "D": "To define the layout of a component."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 23,
+    "question": "How does React handle components' state and props changes?",
+    "options": {
+      "A": "Automatically re-renders components on any state or props change.",
+      "B": "Requires manual re-rendering of components.",
+      "C": "Updates only the DOM elements affected by the change.",
+      "D": "Uses a separate thread to manage state and props changes."
+    },
+    "answer": "A"
+  },
+  {
+    "number": 24,
+    "question": "What is the purpose of the React DevTools?",
+    "options": {
+      "A": "To debug server-side code.",
+      "B": "To inspect and profile the performance of React components.",
+      "C": "To manage state in React applications.",
+      "D": "To create animations in React applications."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 25,
+    "question": "What is the role of the PureComponent in React?",
+    "options": {
+      "A": "To create pure functions in React applications.",
+      "B": "To optimize the rendering performance of class components.",
+      "C": "To handle asynchronous operations.",
+      "D": "To define the initial state of a component."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 26,
+    "question": "What is React's context API used for?",
+    "options": {
+      "A": "To handle form submissions.",
+      "B": "To manage state in class components.",
+      "C": "To provide a way to pass data through the component tree without manually passing props.",
+      "D": "To connect React with external APIs."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 27,
+    "question": "What is the purpose of the React Router Switch component?",
+    "options": {
+      "A": "To create a switch statement for routing logic.",
+      "B": "To group multiple Route components.",
+      "C": "To define the initial state of a component.",
+      "D": "To handle user authentication in React applications."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 28,
+    "question": "How does React handle forms?",
+    "options": {
+      "A": "By using only controlled components.",
+      "B": "By using only uncontrolled components.",
+      "C": "By using a combination of controlled and uncontrolled components.",
+      "D": "By automatically managing forms without the need for components."
+    },
+    "answer": "A"
+  },
+  {
+    "number": 29,
+    "question": "What is the purpose of the React Portal?",
+    "options": {
+      "A": "To create a portal for user authentication.",
+      "B": "To manage state in React applications.",
+      "C": "To render children into a DOM node outside the parent hierarchy.",
+      "D": "To create animations in React applications."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 30,
+    "question": "What is the role of the componentDidUpdate() lifecycle method?",
+    "options": {
+      "A": "To define the initial state of a component.",
+      "B": "To handle user input events.",
+      "C": "To perform actions after a component's state or props have been updated.",
+      "D": "To determine if a component should re-render."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 31,
+    "question": "What are React Hooks rules for naming custom hooks?",
+    "options": {
+      "A": "Must start with 'use' and may be followed by any valid JavaScript identifier.",
+      "B": "Must start with 'react_' and may include numbers.",
+      "C": "Can be named arbitrarily, there are no specific rules.",
+      "D": "Must start with 'hook_' and end with '_react'."
+    },
+    "answer": "A"
+  },
+  {
+    "number": 32,
+    "question": "What is the purpose of the key prop in React lists?",
+    "options": {
+      "A": "To define the layout of a component.",
+      "B": "To provide a unique identifier for each element in the list.",
+      "C": "To handle user authentication in React applications.",
+      "D": "To create animations in React applications."
+    },
+    "answer": "B"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "number": 1,
+    "question": "What is Next.js?",
+    "options": {
+      "A": "A JavaScript framework for building web applications.",
+      "B": "A version control system.",
+      "C": "A database management system.",
+      "D": "A design pattern for CSS layouts."
+    },
+    "answer": "A"
+  },
+  {
+    "number": 2,
+    "question": "Which programming language is primarily used in Next.js?",
+    "options": {
+      "A": "Java",
+      "B": "C#",
+      "C": "JavaScript",
+      "D": "Python"
+    },
+    "answer": "C"
+  },
+  {
+    "number": 3,
+    "question": "What is server-side rendering (SSR) in the context of Next.js?",
+    "options": {
+      "A": "Rendering components on the client side.",
+      "B": "Rendering components on the server side and sending the HTML to the client.",
+      "C": "A method for handling asynchronous operations.",
+      "D": "A version control system."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 4,
+    "question": "What is the purpose of the `pages` directory in a Next.js project?",
+    "options": {
+      "A": "To store static assets like images and styles.",
+      "B": "To define the app's main function.",
+      "C": "To organize the different pages of the application.",
+      "D": "To manage the app's global state."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 5,
+    "question": "What is the role of the `getStaticProps` function in Next.js?",
+    "options": {
+      "A": "To define the initial state of a component.",
+      "B": "To fetch data at build time and pass it as props to the page component.",
+      "C": "To handle user authentication.",
+      "D": "To create animations in Next.js applications."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 6,
+    "question": "What is the purpose of the `Link` component in Next.js?",
+    "options": {
+      "A": "To create a navigation drawer.",
+      "B": "To manage the app's global state.",
+      "C": "To handle routing and enable client-side navigation between pages.",
+      "D": "To define the initial state of a component."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 7,
+    "question": "How does Next.js handle dynamic routes?",
+    "options": {
+      "A": "By using server-side rendering for all dynamic routes.",
+      "B": "By generating static HTML files for each possible value of the dynamic parameter.",
+      "C": "By using client-side rendering for all dynamic routes.",
+      "D": "By embedding dynamic parameters directly in the URL."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 8,
+    "question": "What is the purpose of the `getServerSideProps` function in Next.js?",
+    "options": {
+      "A": "To define the initial state of a component.",
+      "B": "To fetch data at runtime on each request and pass it as props to the page component.",
+      "C": "To handle user authentication.",
+      "D": "To create animations in Next.js applications."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 9,
+    "question": "What is the purpose of the `public` directory in a Next.js project?",
+    "options": {
+      "A": "To define the app's main function.",
+      "B": "To store static assets that should be served as-is, without processing by webpack.",
+      "C": "To organize the different pages of the application.",
+      "D": "To manage the app's global state."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 10,
+    "question": "How does Next.js handle API routes?",
+    "options": {
+      "A": "By using server-side rendering for API routes.",
+      "B": "By automatically generating API documentation.",
+      "C": "By creating a separate Express.js server for API routes.",
+      "D": "By placing API routes in the `pages/api` directory and treating them as serverless functions."
+    },
+    "answer": "D"
+  }
+]

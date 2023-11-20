@@ -1,0 +1,233 @@
+[
+  {
+    "number": 1,
+    "question": "What is Angular?",
+    "options": {
+      "A": "A server-side programming language.",
+      "B": "A JavaScript framework for building web applications.",
+      "C": "A database management system.",
+      "D": "A design pattern for CSS layouts."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 2,
+
+    "question": "Which of the following is an Angular CLI command to generate a new component?",
+    "options": {
+      "A": "ng create component my-component",
+      "B": "ng generate my-component",
+      "C": "ng make-component my-component",
+      "D": "ng component my-component"
+    },
+    "answer": "D"
+  },
+  {
+    "number": 3,
+
+    "question": "What does the term 'ngModule' refer to in Angular?",
+    "options": {
+      "A": "A module for managing network requests.",
+      "B": "A type of Angular component.",
+      "C": "A class that represents an Angular module.",
+      "D": "A built-in Angular service."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 4,
+    "question": "What is the purpose of 'ngFor' in Angular templates?",
+    "options": {
+      "A": "To loop over elements in an array and render them.",
+      "B": "To define a function in Angular.",
+      "C": "To create a new Angular component.",
+      "D": "To define a route in an Angular application."
+    },
+    "answer": "A"
+  },
+  {
+    "number": 5,
+    "question": "Which of the following is used to handle user input in Angular forms?",
+    "options": {
+      "A": "ngForm",
+      "B": "ngModel",
+      "C": "ngControl",
+      "D": "ngChange"
+    },
+    "answer": "B"
+  },
+  {
+    "number": 6,
+
+    "question": "What is the purpose of 'ngIf' in Angular templates?",
+    "options": {
+      "A": "To define a variable in Angular.",
+      "B": "To conditionally render elements based on a condition.",
+      "C": "To create an Angular service.",
+      "D": "To define a new Angular directive."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 7,
+
+    "question": "Which component lifecycle hook is called when an Angular component is initialized?",
+    "options": {
+      "A": "ngOnInit",
+      "B": "ngOnDestroy",
+      "C": "ngOnChanges",
+      "D": "ngAfterViewInit"
+    },
+    "answer": "A"
+  },
+  {
+    "number": 8,
+
+    "question": "What is Angular CLI used for?",
+    "options": {
+      "A": "To create complex animations in Angular applications.",
+      "B": "To generate and manage Angular projects, components, and services.",
+      "C": "To test Angular applications.",
+      "D": "To create server-side applications."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 9,
+    "question": "Which module is commonly used to perform HTTP requests in Angular applications?",
+    "options": {
+      "A": "ng-http",
+      "B": "ng-fetch",
+      "C": "ng-resource",
+      "D": "HttpClientModule"
+    },
+    "answer": "D"
+  },
+  {
+    "number": 10,
+
+    "question": "What does 'Two-way data binding' mean in Angular?",
+    "options": {
+      "A": "Binding data in one direction only, from component to template.",
+      "B": "Binding data in both directions, from component to template and from template to component.",
+      "C": "Binding data to a single component only.",
+      "D": "Binding data to a parent component only."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 11,
+    "question": "What is Angular?",
+    "options": {
+      "A": "A server-side programming language.",
+      "B": "A JavaScript framework for building web applications.",
+      "C": "A database management system.",
+      "D": "A design pattern for CSS layouts."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 12,
+    "question": "Which of the following is an Angular CLI command to generate a new component?",
+    "options": {
+      "A": "ng create component my-component",
+      "B": "ng generate my-component",
+      "C": "ng make-component my-component",
+      "D": "ng component my-component"
+    },
+    "answer": "D"
+  },
+  {
+    "number": 13,
+
+    "question": "What does the term 'ngModule' refer to in Angular?",
+    "options": {
+      "A": "A module for managing network requests.",
+      "B": "A type of Angular component.",
+      "C": "A class that represents an Angular module.",
+      "D": "A built-in Angular service."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 14,
+    "question": "What is the purpose of 'ngFor' in Angular templates?",
+    "options": {
+      "A": "To loop over elements in an array and render them.",
+      "B": "To define a function in Angular.",
+      "C": "To create a new Angular component.",
+      "D": "To define a route in an Angular application."
+    },
+    "answer": "A"
+  },
+  {
+    "number": 15,
+    "question": "Which of the following is used to handle user input in Angular forms?",
+    "options": {
+      "A": "ngForm",
+      "B": "ngModel",
+      "C": "ngControl",
+      "D": "ngChange"
+    },
+    "answer": "B"
+  },
+  {
+    "number": 16,
+
+    "question": "What is the purpose of 'ngIf' in Angular templates?",
+    "options": {
+      "A": "To define a variable in Angular.",
+      "B": "To conditionally render elements based on a condition.",
+      "C": "To create an Angular service.",
+      "D": "To define a new Angular directive."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 17,
+
+    "question": "Which component lifecycle hook is called when an Angular component is initialized?",
+    "options": {
+      "A": "ngOnInit",
+      "B": "ngOnDestroy",
+      "C": "ngOnChanges",
+      "D": "ngAfterViewInit"
+    },
+    "answer": "A"
+  },
+  {
+    "number": 18,
+
+    "question": "What is Angular CLI used for?",
+    "options": {
+      "A": "To create complex animations in Angular applications.",
+      "B": "To generate and manage Angular projects, components, and services.",
+      "C": "To test Angular applications.",
+      "D": "To create server-side applications."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 19,
+    "question": "Which module is commonly used to perform HTTP requests in Angular applications?",
+    "options": {
+      "A": "ng-http",
+      "B": "ng-fetch",
+      "C": "ng-resource",
+      "D": "HttpClientModule"
+    },
+    "answer": "D"
+  },
+  {
+    "number": 20,
+
+    "question": "What does 'Two-way data binding' mean in Angular?",
+    "options": {
+      "A": "Binding data in one direction only, from component to template.",
+      "B": "Binding data in both directions, from component to template and from template to component.",
+      "C": "Binding data to a single component only.",
+      "D": "Binding data to a parent component only."
+    },
+    "answer": "B"
+  }
+]

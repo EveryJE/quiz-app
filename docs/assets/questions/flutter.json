@@ -1,0 +1,112 @@
+[
+  {
+    "number": 1,
+    "question": "What is Flutter?",
+    "options": {
+      "A": "A programming language.",
+      "B": "A mobile operating system.",
+      "C": "A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.",
+      "D": "A version control system."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 2,
+    "question": "Which programming language is used in Flutter?",
+    "options": {
+      "A": "Java",
+      "B": "C#",
+      "C": "Dart",
+      "D": "Swift"
+    },
+    "answer": "C"
+  },
+  {
+    "number": 3,
+    "question": "What is a widget in Flutter?",
+    "options": {
+      "A": "A small graphical element on the screen.",
+      "B": "A building block for the user interface in Flutter.",
+      "C": "A server in a client-server architecture.",
+      "D": "A function in Dart programming language."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 4,
+    "question": "What is the purpose of the MaterialApp widget in Flutter?",
+    "options": {
+      "A": "To create a material design app bar.",
+      "B": "To define the initial state of the app.",
+      "C": "To handle user authentication.",
+      "D": "To create animations in Flutter applications."
+    },
+    "answer": "A"
+  },
+  {
+    "number": 5,
+    "question": "What is the 'hot reload' feature in Flutter?",
+    "options": {
+      "A": "A method for reloading the entire application.",
+      "B": "A way to quickly restart the development server.",
+      "C": "A feature for updating the app's dependencies.",
+      "D": "A way to quickly see the effects of code changes without restarting the app."
+    },
+    "answer": "D"
+  },
+  {
+    "number": 6,
+    "question": "What is the purpose of the Scaffold widget in Flutter?",
+    "options": {
+      "A": "To create a basic structure for a Flutter app.",
+      "B": "To handle asynchronous operations.",
+      "C": "To define the initial state of a widget.",
+      "D": "To manage the app's global state."
+    },
+    "answer": "A"
+  },
+  {
+    "number": 7,
+    "question": "What is Flutter's pubspec.yaml file used for?",
+    "options": {
+      "A": "To define the app's main function.",
+      "B": "To specify the app's dependencies and metadata.",
+      "C": "To configure the app's routing.",
+      "D": "To manage the app's global state."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 8,
+    "question": "How does Flutter handle layout and positioning of widgets?",
+    "options": {
+      "A": "Using HTML and CSS.",
+      "B": "Using XML and XAML.",
+      "C": "Using the Flexbox layout model.",
+      "D": "Using a tree of widgets with a constraint-based layout system."
+    },
+    "answer": "D"
+  },
+  {
+    "number": 9,
+    "question": "What is the purpose of the Navigator widget in Flutter?",
+    "options": {
+      "A": "To create a navigation drawer.",
+      "B": "To manage the app's global state.",
+      "C": "To handle routing and navigation between screens.",
+      "D": "To define the initial state of a widget."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 10,
+    "question": "What is Flutter's widget tree?",
+    "options": {
+      "A": "A tree structure representing the hierarchy of widgets in a Flutter app.",
+      "B": "A data structure for managing key-value pairs.",
+      "C": "A method for handling asynchronous operations.",
+      "D": "A set of rules for defining the layout of widgets."
+    },
+    "answer": "A"
+  }
+]
