@@ -1,0 +1,30 @@
+<div class="body">
+  <div class="left">
+    <div class="box">
+      <div class="border-l-[1px] border-[var(--bg-icon)] m-5">
+        <div class="side1">
+          <img src="assets/koala-img.jpg" />
+        </div>
+      </div>
+      <div class="side2_cover">
+        <div class="side2">
+          <span>OALA</span>
+        </div>
+      </div>
+    </div>
+    <div class="devider w-2/3 mb-5"></div>
+    <div class="text">
+      <div class="text1 whitespace-nowrap">LOG IN TO KOALA QUIZ</div>
+    </div>
+    <div class="text2 text-xl">and keep your progress as you learn</div>
+    <div
+      class="bg-[var(--tertiary)] text-[var(--bg-300)] p-4 rounded-full btn active:scale-90 text-xl m-10 cursor-pointer"
+      [routerLink]="['/main','javascript']"
+    >
+      EXPLORE WITHOUT LOGGING IN
+    </div>
+  </div>
+  <div class="right">
+    <quiz-login-form> </quiz-login-form>
+  </div>
+</div>

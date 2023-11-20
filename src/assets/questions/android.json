@@ -1,0 +1,112 @@
+[
+  {
+    "number": 1,
+    "question": "What is Android?",
+    "options": {
+      "A": "A programming language.",
+      "B": "An operating system for mobile devices.",
+      "C": "A front-end JavaScript framework.",
+      "D": "A database management system."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 2,
+    "question": "Which programming language is commonly used for Android app development?",
+    "options": {
+      "A": "Java",
+      "B": "C#",
+      "C": "JavaScript",
+      "D": "Swift"
+    },
+    "answer": "A"
+  },
+  {
+    "number": 3,
+    "question": "What is an APK in the context of Android?",
+    "options": {
+      "A": "A file format for animated images.",
+      "B": "An Android Package file, containing the app's code and resources.",
+      "C": "A style sheet language for Android layouts.",
+      "D": "A version control system."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 4,
+    "question": "What is the Android SDK?",
+    "options": {
+      "A": "A server-side programming language.",
+      "B": "A software development kit containing tools and libraries for Android app development.",
+      "C": "A database management system.",
+      "D": "A design pattern for CSS layouts."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 5,
+    "question": "What is the purpose of an Android Intent?",
+    "options": {
+      "A": "To create a material design app bar.",
+      "B": "To define the initial state of the app.",
+      "C": "To manage communication between components and trigger actions.",
+      "D": "To handle user authentication."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 6,
+    "question": "What is an Android Fragment?",
+    "options": {
+      "A": "A standalone Android app.",
+      "B": "A reusable modular section of an activity, representing part of the UI.",
+      "C": "A background process that runs independently of the main app.",
+      "D": "A version control system."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 7,
+    "question": "What is the role of the AndroidManifest.xml file?",
+    "options": {
+      "A": "To create a material design app bar.",
+      "B": "To define the initial state of the app.",
+      "C": "To manage state in Android applications.",
+      "D": "To provide essential information about the app to the Android system."
+    },
+    "answer": "D"
+  },
+  {
+    "number": 8,
+    "question": "What is Gradle in the context of Android development?",
+    "options": {
+      "A": "A programming language.",
+      "B": "A front-end JavaScript framework.",
+      "C": "A build system used for building Android apps.",
+      "D": "A database management system."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 9,
+    "question": "What is an Android layout file used for?",
+    "options": {
+      "A": "To create a material design app bar.",
+      "B": "To define the initial state of the app.",
+      "C": "To manage state in Android applications.",
+      "D": "To describe the UI elements and their arrangement in an Android app."
+    },
+    "answer": "D"
+  },
+  {
+    "number": 10,
+    "question": "What is the purpose of the Android Emulator?",
+    "options": {
+      "A": "To create a material design app bar.",
+      "B": "To simulate the behavior of a real Android device for testing apps.",
+      "C": "To manage state in Android applications.",
+      "D": "To define the initial state of the app."
+    },
+    "answer": "B"
+  }
+]

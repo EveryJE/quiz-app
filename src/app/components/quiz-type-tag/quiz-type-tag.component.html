@@ -1,0 +1,23 @@
+<div class="body">
+  <img src="{{ tagData.img_url }}" alt="Image Description" />
+  <div class="p-4 bg-[var(--tertiary)] backdrop-blur flex-1 w-full">
+    <h3 class="title">{{ tagData.title }}</h3>
+    <p class="mt-1 text-white">
+      {{ tagData.description }}
+    </p>
+  </div>
+  <div class="move-to">
+    <a
+      class="move-to-btn"
+      [routerLink]="['/main/documentation', tagData.documentation]"
+    >
+      <mat-icon>book</mat-icon>
+      take learson
+    </a>
+    <a class="move-to-btn" [routerLink]="['/main/quiz-page', tagData.quiz]">
+      <mat-icon>draw</mat-icon>
+
+      take quiz
+    </a>
+  </div>
+</div>

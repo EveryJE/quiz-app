@@ -1,0 +1,10 @@
+@tailwind components;
+
+
+@layer{
+
+    .main-container{
+        @apply relative bg-[var(--bg-300)] text-[--text-300] min-h-[100vh] w-[100vw] overflow-x-hidden;
+        transition: 1s ease all;      
+    }
+}

@@ -1,0 +1,27 @@
+@tailwind components;
+
+@layer components {
+  .body {
+    @apply text-[var(--bg-icon)] bg-[#ffffff80] shadow-2xl flex-col justify-center items-center w-fit p-5 flex;
+
+    .top {
+      @apply w-full flex flex-1 justify-center items-center mb-5;
+
+      .user-icon {
+        @apply text-[var(--bg-icon)] w-20 h-20 text-[4rem] flex justify-center items-center;
+      }
+    }
+
+    .form-container {
+      mat-form-field {
+      }
+
+      .userType {
+        @apply m-5;
+      }
+      .login-btn {
+        @apply font-bold;
+      }
+    }
+  }
+}

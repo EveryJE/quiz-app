@@ -1,0 +1,35 @@
+@tailwind components;
+
+@layer components {
+  .header-container {
+    @apply flex justify-center items-center flex-col bg-[var(--bg-200)] lg:px-[5%] select-none max-w-[100vw] overflow-hidden absolute top-0 w-full  h-[6rem] z-[1];
+
+    .sub-header-container {
+      @apply bg-transparent flex py-0 my-0 justify-between  items-center h-[4rem];
+      @apply text-[var(--tertiary)];
+
+      .left {
+        @apply flex justify-center items-center;
+
+        .menu-icon {
+          @apply text-[2rem] lg:text-[3rem] h-[3rem] w-[3rem] flex justify-center items-center;
+        }
+      }
+
+      .search {
+        @apply outline-none text-center px-[1rem] backdrop-blur-md bg-[var(--tertiary)] rounded-[1rem] focus:border-t-2 border-t-secondary-100 caret-[var(--text-300)] text-[var(--text-200)]  flex-1 placeholder:text-[var(--text-200)];
+        @apply max-w-[50vw];
+      }
+      .log {
+        @apply flex justify-center items-center flex-col;
+
+        span {
+          @apply text-[1rem] mt-[-.5rem];
+        }
+      }
+    }
+    .right {
+      @apply flex flex-row gap-2 lg:gap-20 ml-2 items-center ;
+    }
+  }
+}

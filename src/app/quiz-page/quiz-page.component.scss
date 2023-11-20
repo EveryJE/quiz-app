@@ -1,0 +1,44 @@
+@tailwind components;
+
+@layer components {
+  .section {
+
+    @apply w-full;
+    
+    .quiz-description {
+      .rec-top {
+        @apply flex justify-around items-center bg-[var(--tertiary)] p-1;
+
+        img {
+          @apply w-[4rem] rounded-full bg-[#ffffff44] p-2 ;
+        }
+      }
+      .rec-warns {
+        @apply flex flex-row justify-around items-center h-fit p-[1rem] pb-0;
+      }
+    }
+
+    .qtn-badge {
+      @apply flex flex-col md:flex-row justify-center items-center;
+    .question-nav {
+          @apply flex flex-row justify-evenly w-full;
+          .nav-btn {
+            @apply text-[var(--tertiary)] h-10 w-8 flex items-center text-[2rem] active:scale-90 select-none;
+         
+          }
+      .badge-left {
+        @apply flex min-h-[50vh] flex-col justify-around w-full md:w-[50vw];
+
+    
+        }
+      }
+      .badge-right {
+        @apply flex md:max-w-fit flex-row justify-center items-center;
+
+        .inner-container {
+          @apply flex flex-row md:flex-col gap-0 justify-center items-center flex-wrap md:h-[50vh];
+        }
+      }
+    }
+  }
+}

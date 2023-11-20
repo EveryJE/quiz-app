@@ -1,0 +1,47 @@
+@tailwind components;
+
+@layer components {
+  .body {
+    @apply grid gap-[1rem] grid-cols-1 lg:grid-cols-2  mt-[6rem];
+    .left {
+      @apply scale-50 lg:scale-100 text-center flex justify-center items-center flex-col ;
+
+      .box {
+        @apply text-center flex justify-center items-center  transition-all;
+
+        img {
+          @apply scale-[1.4] rotate-180 opacity-50;
+        }
+
+        .side1 {
+         @apply h-[20rem] w-[20rem] -ml-4;
+          @apply bg-[var(--bg-icon)] justify-center items-center flex rotate-180 sm:scale-90;
+          clip-path: polygon(66% 14%, 100% 50%, 64% 88%, 0 88%, 38% 52%, 0 14%);
+        }
+        .side2_cover {
+          
+          .side2 {
+            @apply bg-[var(--bg-300)] justify-center items-center flex bg-clip-text text-transparent lg:text-[7rem] text-[5rem];
+            @apply w-[20rem] h-[20rem] -ml-[6rem];
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            background-image: url("../../assets/koala-img.jpg");
+
+            span {
+              // @apply m
+            }
+          }
+        }
+      }
+      .text {
+        @apply flex justify-center items-center h-[4rem]  bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 bg-clip-text text-transparent;
+
+        .text1 {
+          @apply text-[3rem]    flex justify-center items-center;
+        }
+      }
+    }
+    .right {
+      @apply  flex justify-center items-center flex-row  lg:h-[calc(100vh-6rem)] xsm:pb-10 lg:pb-0;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@tailwind components;
+
+@layer components{
+    
+  .toggle-container {
+    @apply flex flex-row justify-center items-center;
+
+    .toggle-rail {
+      @apply w-[3rem] relative h-4 bg-gray-400 rounded-full flex items-center transition-all;
+      .toggle-head {
+        @apply w-4 h-4 bg-white rounded-full shadow-md  absolute flex;
+        @apply ring-2 ring-[#ffffff55];
+        mat-icon {
+          @apply text-sm  flex items-center justify-center max-h-full;
+        }
+      }
+      &:active {
+        .toggle-head {
+          @apply ring-4 ring-[#ffffff55];
+        }
+      }
+    }
+  }
+}

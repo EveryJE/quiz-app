@@ -1,0 +1,41 @@
+<div class="body">
+  <div class="top flex-c">
+    <mat-icon class="user-icon">person</mat-icon>
+    <div class="devider opacity-50 bg-[var(--bg-icon)]"></div>
+  </div>
+
+  <form class="form-container flex-c" (ngSubmit)="onLogin()" #myForm="ngForm">
+    <mat-form-field>
+      <mat-label class="input-icon">user name</mat-label>
+      <input
+        matInput
+        required
+        type="name"
+        placeholder="Kofi Gyan"
+        name="user_name"
+        [(ngModel)]="userDetails.name"
+      />
+      <mat-icon matSuffix>perm_identity</mat-icon>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label class="input-icon">course of study</mat-label>
+      <input
+        matInput
+        required
+        type="course"
+        placeholder="course of study"
+        name="user_course"
+        [(ngModel)]="userDetails.course"
+      />
+      <mat-icon matSuffix>group_work</mat-icon>
+    </mat-form-field>
+    <span class="userType flex-r">
+      remember me ?
+      <mat-slide-toggle (change)="onRememberMe($event)"></mat-slide-toggle>
+    </span>
+
+  <button type="submit" class="btn login-btn" [disabled]="!myForm.form.valid">
+      Login
+    </button>
+  </form>
+</div>

@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+.main{
+  @apply overflow-x-hidden;
+}
+
+  .flex-r {
+    @apply flex flex-row items-center justify-center;
+  }
+  .flex-c {
+    @apply flex flex-col align-middle justify-center;
+  }
+  .devider {
+    @apply w-full border-b-[1px] border-[--tertiary];
+  }
+  .btn {
+    @apply hover:opacity-70 active:opacity-25;
+  }
+
+  
+
+  :root {
+    --text-300: #0f172a;
+    --text-200: #0f172aaa;
+    --text-100: #0f172a60;
+    --tertiary: #38bdf8;
+    --bg-300: #f4f7f8;
+    --bg-200: rgba(211, 209, 209, 0.667);
+    --bg-100: #ffffff60;
+    --bg-icon: #38bdf8;
+  }
+
+  [data-theme="dark"] {
+    --bg-300: #0f172a;
+    --bg-200: #0a0e1daa;
+    --bg-100: #bebec060;
+    --text-300: #f4f7f8;
+    --text-200: #ffffffaa;
+    --text-100: #ffffff60;
+    --tertiary: #38bdf8aa;
+    --bg-icon:#0f172a;
+  }
+
+  [data-theme="custom"] {
+    --bg-300: #470101;
+    --bg-200: #2e0101aa;
+    --bg-icon:#470101;
+    --text-300: white;
+    --tertiary-200: #FF6F00;
+    --tertiary: #FF6F00;
+  }
+}

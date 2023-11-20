@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components{
+.section {
+    @apply min-h-[50vh] justify-center flex items-center;
+}
+}

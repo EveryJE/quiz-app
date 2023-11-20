@@ -1,0 +1,92 @@
+<div class="section">
+  <div class="quiz-description">
+    <div class="rec-top">
+      <img src="{{ quizLogo }}" alt="Image Description" class="quizLogo" />
+      <div>welcome {{ userName }}</div>
+    </div>
+    <div class="devider"></div>
+
+    <div [ngClass]="">
+      <div class="rec-warns" >
+      <p>point :{{ points }}</p>
+      <p>question {{ currentQuestionNumber }} out of {{ totalQuestions }}</p>
+      <p>
+        time left⌚:<span [ngClass]="{ 'text-red-600': timeLeft < 590 }">{{
+          showTimeLeft
+        }}</span>
+      </p>
+    </div>
+  </div>
+  <div class="devider"></div>
+
+  <div class="qtn-badge">
+    <div class="badge-left">
+      <div class="flex flex-row  gap-3">
+        <div
+          *ngFor="let question of questions"
+          class="w-[100vw] md:w-[50vw] p-5"
+          [hidden]="question.number !== currentQuestionNumber"
+        >
+          <p class="text-lg md:text-[1.5rem]">{{ question.number }}. {{ question.question }}</p>
+          <div class="flex gap-2 flex-col py-2">
+            <div
+              [id]="question.number + '-' + option"
+              *ngFor="let option of question['options'] | keyvalue"
+              (click)="checkAnswer(option.key, question)"
+              class="flex items-start gap-2  md:text-xl w-fit"
+            >
+            <div>
+                <input
+                type="radio"
+                [id]="question.number + '-' + option.key"
+                [name]="question.number"
+                class="appearance-none border border-gray-300 rounded-full h-5 w-5 checked:bg-[var(--tertiary)] checked:border-transparent cursor-pointer"
+              />
+            </div>
+            
+              <label
+                [for]="question.number + '-' + option.key"
+                class="text-[--text-300] cursor-pointer w-fit "
+              >
+                {{ option.key }}. {{ option.value }}
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="question-nav">
+        <div class="nav-btn btn" (click)="prevQuestion()">
+          <mat-icon>skip_previous</mat-icon>
+        </div>
+        <div class="nav-btn" (click)="refQuestion()">
+          <mat-icon>autorenew</mat-icon>
+        </div>
+        <div class="nav-btn btn" (click)="nextQuestion()">
+          <div [hidden]="currentQuestionNumber >=totalQuestions">
+                <mat-icon >skip_next</mat-icon>
+          </div>
+          <div [hidden]="currentQuestionNumber <totalQuestions" (click)="finishQuiz()">
+            <p class="text-[1rem]">Finish</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- question badge to display tackled and not tackled -->
+    <div class="badge-right p-5">
+      <div class="inner-container">
+        <span
+          *ngFor="let qtn of qtnStatus"
+          [ngClass]="{ 'bg-[var(--tertiary)] text-white': qtn.tackled }"
+          class="justify-center items-center flex w-8 h-8 ring-1 ring-white active:scale-80 btn"
+          (click)="jumpToQuestion(qtn.questionNumber)"
+          >{{ qtn.questionNumber }}</span
+        >
+      </div>
+    </div>
+
+    <!-- Navigations for next prev and  -->
+  </div>
+    </div>
+    
+</div>

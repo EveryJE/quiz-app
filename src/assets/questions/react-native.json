@@ -1,0 +1,167 @@
+[
+  {
+    "number": 1,
+    "question": "What is React Native?",
+    "options": {
+      "A": "A server-side programming language.",
+      "B": "A JavaScript framework for building mobile applications.",
+      "C": "A database management system.",
+      "D": "A design pattern for CSS layouts."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 2,
+    "question": "Which programming language is primarily used in React Native?",
+    "options": {
+      "A": "Java",
+      "B": "C#",
+      "C": "JavaScript",
+      "D": "Swift"
+    },
+    "answer": "C"
+  },
+  {
+    "number": 3,
+    "question": "What platforms does React Native support?",
+    "options": {
+      "A": "Only iOS",
+      "B": "Only Android",
+      "C": "Both iOS and Android",
+      "D": "iOS, Android, and Windows"
+    },
+    "answer": "C"
+  },
+  {
+    "number": 4,
+    "question": "What is the purpose of Expo in React Native development?",
+    "options": {
+      "A": "To create a material design app bar.",
+      "B": "To manage state in React Native applications.",
+      "C": "To provide a set of tools and services for React Native development.",
+      "D": "To define the initial state of an application."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 5,
+    "question": "What is JSX in the context of React Native?",
+    "options": {
+      "A": "A JavaScript syntax extension.",
+      "B": "A data storage format.",
+      "C": "A server-side rendering engine.",
+      "D": "A CSS preprocessor."
+    },
+    "answer": "A"
+  },
+  {
+    "number": 6,
+    "question": "What is the purpose of the React Navigation library in React Native?",
+    "options": {
+      "A": "To handle user authentication.",
+      "B": "To manage state in React Native applications.",
+      "C": "To create navigation flows and manage navigation state.",
+      "D": "To connect React Native with external APIs."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 7,
+    "question": "What is the role of the StyleSheet API in React Native?",
+    "options": {
+      "A": "To fetch data from an external API.",
+      "B": "To define the initial state of a component.",
+      "C": "To create and manage styles for React Native components.",
+      "D": "To handle user input events."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 8,
+    "question": "What is the purpose of the AsyncStorage API in React Native?",
+    "options": {
+      "A": "To define the initial state of a component.",
+      "B": "To handle user authentication.",
+      "C": "To persistently store key-value pairs asynchronously.",
+      "D": "To create animations in React Native applications."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 9,
+    "question": "What is the significance of the FlatList component in React Native?",
+    "options": {
+      "A": "To define the initial state of a component.",
+      "B": "To create animations in React Native applications.",
+      "C": "To render a scrolling list of data efficiently.",
+      "D": "To handle user authentication."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 10,
+    "question": "What is the purpose of the TouchableOpacity component in React Native?",
+    "options": {
+      "A": "To create a splash effect in response to user interaction.",
+      "B": "To define the app's main function.",
+      "C": "To handle user authentication.",
+      "D": "To provide visual feedback for touch interactions."
+    },
+    "answer": "D"
+  },
+  {
+    "number": 11,
+    "question": "What is the purpose of the `react-native-cli` command-line tool?",
+    "options": {
+      "A": "To create a material design app bar.",
+      "B": "To manage state in React Native applications.",
+      "C": "To configure the app's routing.",
+      "D": "To initialize and bootstrap React Native projects."
+    },
+    "answer": "D"
+  },
+  {
+    "number": 12,
+    "question": "How does React Native handle native modules?",
+    "options": {
+      "A": "By using JavaScript only, without native modules.",
+      "B": "By relying entirely on native modules, without JavaScript.",
+      "C": "By allowing communication between JavaScript and native modules.",
+      "D": "By automatically converting native modules to JavaScript."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 13,
+    "question": "What is the purpose of the `react-native run-android` command?",
+    "options": {
+      "A": "To create a material design app bar.",
+      "B": "To run the React Native application on an Android emulator or device.",
+      "C": "To configure the app's routing.",
+      "D": "To manage state in React Native applications."
+    },
+    "answer": "B"
+  },
+  {
+    "number": 14,
+    "question": "How can you integrate native code (Java, Swift, Objective-C) into a React Native project?",
+    "options": {
+      "A": "It's not possible to integrate native code with React Native.",
+      "B": "By rewriting the entire React Native project in native code.",
+      "C": "By using the NativeModules API and creating a bridge between JavaScript and native code.",
+      "D": "By copying and pasting native code directly into the React Native JavaScript files."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 15,
+    "question": "What is the purpose of the `react-native link` command?",
+    "options": {
+      "A": "To create a material design app bar.",
+      "B": "To link React Native with external APIs.",
+      "C": "To automatically link native modules with the React Native project.",
+      "D": "To manage state in React Native applications."
+    },
+    "answer": "C"
+  }
+]

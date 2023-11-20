@@ -1,0 +1,112 @@
+[
+  {
+    "number": 1,
+    "question": "What is Laravel?",
+    "options": {
+      "A": "A programming language.",
+      "B": "A front-end JavaScript framework.",
+      "C": "A PHP web application framework.",
+      "D": "A database management system."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 2,
+    "question": "Which programming language is primarily used in Laravel?",
+    "options": {
+      "A": "Java",
+      "B": "C#",
+      "C": "JavaScript",
+      "D": "PHP"
+    },
+    "answer": "D"
+  },
+  {
+    "number": 3,
+    "question": "What is the purpose of Eloquent in Laravel?",
+    "options": {
+      "A": "To handle asynchronous operations.",
+      "B": "To define the initial state of a component.",
+      "C": "To provide an ORM for interacting with databases.",
+      "D": "To create animations in Laravel applications."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 4,
+    "question": "What is the Blade templating engine used for in Laravel?",
+    "options": {
+      "A": "To create a material design app bar.",
+      "B": "To define the initial state of the app.",
+      "C": "To manage state in Laravel applications.",
+      "D": "To define the structure of views in a more concise syntax."
+    },
+    "answer": "D"
+  },
+  {
+    "number": 5,
+    "question": "What is Laravel's artisan console used for?",
+    "options": {
+      "A": "To create a material design app bar.",
+      "B": "To define the initial state of the app.",
+      "C": "To manage state in Laravel applications.",
+      "D": "To interact with the framework through the command line."
+    },
+    "answer": "D"
+  },
+  {
+    "number": 6,
+    "question": "What is the purpose of middleware in Laravel?",
+    "options": {
+      "A": "To create a material design app bar.",
+      "B": "To manage state in Laravel applications.",
+      "C": "To define the initial state of the app.",
+      "D": "To process HTTP requests entering the application."
+    },
+    "answer": "D"
+  },
+  {
+    "number": 7,
+    "question": "What is the purpose of Laravel Mix?",
+    "options": {
+      "A": "To create a material design app bar.",
+      "B": "To manage state in Laravel applications.",
+      "C": "To define the initial state of the app.",
+      "D": "To simplify asset compilation and management."
+    },
+    "answer": "D"
+  },
+  {
+    "number": 8,
+    "question": "What is the role of migrations in Laravel?",
+    "options": {
+      "A": "To create a material design app bar.",
+      "B": "To define the initial state of the app.",
+      "C": "To manage state in Laravel applications.",
+      "D": "To version-control the database schema and apply changes."
+    },
+    "answer": "D"
+  },
+  {
+    "number": 9,
+    "question": "What is Laravel's relationship with the MVC architectural pattern?",
+    "options": {
+      "A": "It stands for Multi-View Controller, a variation of MVC.",
+      "B": "It doesn't follow the MVC pattern.",
+      "C": "It adheres to the MVC pattern with a structured separation of concerns.",
+      "D": "It uses a modified version of the MVC pattern called LVC."
+    },
+    "answer": "C"
+  },
+  {
+    "number": 10,
+    "question": "What is Laravel Valet used for?",
+    "options": {
+      "A": "To create a material design app bar.",
+      "B": "To define the initial state of the app.",
+      "C": "To manage state in Laravel applications.",
+      "D": "To provide a lightweight development environment for Laravel projects."
+    },
+    "answer": "D"
+  }
+]

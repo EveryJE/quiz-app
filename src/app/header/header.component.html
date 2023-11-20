@@ -1,0 +1,36 @@
+<div class="header-container">
+  <mat-toolbar class="sub-header-container">
+    <div class="left">
+      <mat-icon class="btn menu-icon" (click)="showMenu()">menu</mat-icon>
+    </div>
+    <div class="middle">
+      <input class="search" placeholder="search topic" />
+    </div>
+    <div class="right">
+      <div class="log btn" routerLink="/login">
+        <mat-icon class="">person</mat-icon>
+        <span>log</span>
+      </div>
+      <div>
+        <quiz-toggle-button> </quiz-toggle-button>
+      </div>
+    </div>
+  </mat-toolbar>
+  <div class="devider"></div>
+  <div class="transition-all h-fit {{showClass}}">
+    <mat-chip-listbox aria-label="">
+      <mat-chip-option color="accent" [routerLink]="['/main','javascript']"
+        >JAVA SCRIPT</mat-chip-option
+      >
+      <mat-chip-option color="accent" [routerLink]="['/main', 'java']"
+        >Java</mat-chip-option
+      >
+      <mat-chip-option color="accent" [routerLink]="['/main', 'php']"
+        >PHP</mat-chip-option
+      >
+      <mat-chip-option color="dart" [routerLink]="['/main', 'dart']"
+        >DART</mat-chip-option
+      >
+    </mat-chip-listbox>
+  </div>
+</div>

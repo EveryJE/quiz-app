@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components{
+.page-not-found-container{
+    @apply h-2/3 p-10 flex justify-center text-justify items-center text-[var(--text-300)] text-lg;
+}
+}
